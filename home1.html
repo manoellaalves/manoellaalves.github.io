@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/estilo1.css">
+    <title>Controle de Pagamento</title>
+
+</head>
+    <body id="body2">
+        <div class='container'>
+            
+            <form class="form" action="index.html" method="post" id="loginInicio">
+                <div class="card">
+                    <h3>Login</h3>
+                    <div class='input-field'>
+                        <label id="lbUser" for="nome">Usuário:</label>
+                        <input type="text" id='usuario' placeholder="Digite seu nome">
+                    </div>
+
+                
+                    <div class ='input-field'>
+                        <label id="lbSenha" for="senha">Senha:</label>
+                        <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                        
+                    </div>
+                    
+                </div>
+            </form>
+            <div class="center">
+                <button  id="btn-login" onclick="loginValidate()">Entrar</button>
+
+            </div>
+        </div>
+        <script src="javascript.js"></script>       
+    </body>
+</html>
